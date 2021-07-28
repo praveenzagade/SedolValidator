@@ -1,10 +1,10 @@
-﻿using MnG.SedolChecker.Implementations;
+using MnG.SedolChecker.Implementations;
 using MnG.SedolChecker.Interfaces;
 using NUnit.Framework;
 
-namespace MnG.SelodChecker.Tests
+namespace MnG.SedolChecker.NUnit3.Tests
 {
-    internal class CodeValueProvider_Tests
+    public class AlphabetCodeValueProvider_Tests
     {
         [SetUp]
         public void Setup()
@@ -24,25 +24,21 @@ namespace MnG.SelodChecker.Tests
         [TestCase('X', 33)]
         [TestCase('y', 34)]
         [TestCase('Z', 35)]
-        [TestCase('0', 0)]
-        [TestCase('5', 5)]
-        [TestCase('9', 9)]
         [TestCase(' ', 0)]
         [TestCase('.', 0)]
         [TestCase('\\', 0)]
         [TestCase('#', 0)]
-        public void GetValue_MultipleInputs(char source,
-                                            int expectedValue)
+        public void GetAlphabetValue_MultipleInputs(char source,
+                                                    int value)
         {
             //Arrange
-            IValueProvider alphabetCodeValueProvider = new AlphabetCodeValueProvider();
-            IValueProvider testSubject = new CodeValueProvider(alphabetCodeValueProvider);
+            IValueProvider testSubject = new AlphabetCodeValueProvider();
 
             //Act
-            int actualResult = testSubject.GetValue(source);
+            int result = testSubject.GetValue(source);
 
             //Assert
-            Assert.AreEqual(expectedValue, actualResult);
+            Assert.AreEqual(value, result);
         }
     }
 }

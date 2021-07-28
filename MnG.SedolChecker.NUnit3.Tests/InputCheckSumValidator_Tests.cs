@@ -1,10 +1,9 @@
 ﻿using MnG.SedolChecker.Implementations;
 using MnG.SedolChecker.Interfaces;
 using NUnit.Framework;
-using System;
 using System.Collections.Generic;
 
-namespace MnG.SelodChecker.Tests
+namespace MnG.SedolChecker.NUnit3.Tests
 {
     internal class InputCheckSumValidator_Tests
     {
@@ -72,7 +71,7 @@ namespace MnG.SelodChecker.Tests
             if (!string.IsNullOrWhiteSpace(source))
             {
                 int index = 0;
-                foreach (Char chr in source)
+                foreach (char chr in source)
                 {
                     index++;
                     retValue += GetCodeValue(chr) * _WeightingFactor[index];

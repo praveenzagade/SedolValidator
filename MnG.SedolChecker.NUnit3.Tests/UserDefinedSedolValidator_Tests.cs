@@ -2,7 +2,7 @@
 using MnG.SedolChecker.Interfaces;
 using NUnit.Framework;
 
-namespace MnG.SelodChecker.Tests
+namespace MnG.SedolChecker.NUnit3.Tests
 {
     internal class UserDefinedSedolValidator_Tests
     {

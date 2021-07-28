@@ -3,7 +3,7 @@ using MnG.SedolChecker.Implementations;
 using MnG.SedolChecker.Interfaces;
 using NUnit.Framework;
 
-namespace MnG.SelodChecker.Tests
+namespace MnG.SedolChecker.NUnit3.Tests
 {
     public class ImplementedSedolValidator_Tests
     {

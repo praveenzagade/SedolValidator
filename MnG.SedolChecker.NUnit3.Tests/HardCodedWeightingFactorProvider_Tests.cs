@@ -3,7 +3,7 @@ using MnG.SedolChecker.Interfaces;
 using NUnit.Framework;
 using System.Collections.Generic;
 
-namespace MnG.SelodChecker.Tests
+namespace MnG.SedolChecker.NUnit3.Tests
 {
     public class HardCodedWeightingFactorProvider_Tests
     {
