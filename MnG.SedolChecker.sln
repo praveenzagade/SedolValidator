@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MnG.SedolChecker.Interfaces", "MnG.SedolChecker.Interfaces\MnG.SedolChecker.Interfaces.csproj", "{8520E177-CF63-4582-AD5A-3797ABB13A58}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MnG.SedolChecker.Implementations", "MnG.SedolChecker.Implementations\MnG.SedolChecker.Implementations.csproj", "{6E3B0AAE-B437-4D5D-BC2D-77D6578F814F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MnG.SelodChecker.Tests", "MnG.SelodChecker.Tests\MnG.SelodChecker.Tests.csproj", "{D2655E92-20FD-4C09-B306-72BACFC4DA98}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MnG.SedolChecker.Common", "MnG.SedolChecker.Common\MnG.SedolChecker.Common.csproj", "{2A757E00-B4A7-430A-B666-DEA7C3F482B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8520E177-CF63-4582-AD5A-3797ABB13A58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8520E177-CF63-4582-AD5A-3797ABB13A58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8520E177-CF63-4582-AD5A-3797ABB13A58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8520E177-CF63-4582-AD5A-3797ABB13A58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E3B0AAE-B437-4D5D-BC2D-77D6578F814F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E3B0AAE-B437-4D5D-BC2D-77D6578F814F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E3B0AAE-B437-4D5D-BC2D-77D6578F814F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E3B0AAE-B437-4D5D-BC2D-77D6578F814F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2655E92-20FD-4C09-B306-72BACFC4DA98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2655E92-20FD-4C09-B306-72BACFC4DA98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2655E92-20FD-4C09-B306-72BACFC4DA98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2655E92-20FD-4C09-B306-72BACFC4DA98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A757E00-B4A7-430A-B666-DEA7C3F482B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A757E00-B4A7-430A-B666-DEA7C3F482B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A757E00-B4A7-430A-B666-DEA7C3F482B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A757E00-B4A7-430A-B666-DEA7C3F482B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B57EC533-58A6-45B5-BCC8-097618D48943}
+	EndGlobalSection
+EndGlobal
